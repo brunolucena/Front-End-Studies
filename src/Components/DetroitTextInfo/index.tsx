@@ -27,7 +27,11 @@ export default function DetroitTextInfo() {
           <div className="detroit-text-info">
             <p className="text">
               {show && (
-                <Typewriter speed={2} text="O POLICIAL ATIROU NO DIVERGENTE" />
+                <Typewriter
+                  cursor={false}
+                  speed={2}
+                  text="O POLICIAL ATIROU NO DIVERGENTE"
+                />
               )}
             </p>
             <div className="background" />
